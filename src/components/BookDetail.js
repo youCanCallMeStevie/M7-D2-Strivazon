@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 
 class BookDetail extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+
+  state = {
       book: null,
     };
-  }
+
 
   componentDidUpdate(prevProps) {
     if (prevProps.bookSelected !== this.props.bookSelected) {

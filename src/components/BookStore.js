@@ -4,12 +4,10 @@ import BookDetail from "./BookDetail";
 import { books } from "../data/books";
 
 class BookStore extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+ state = {
       bookSelected: null,
     };
-  }
+ 
 
   changeBook = (id) => this.setState({ bookSelected: id });
 

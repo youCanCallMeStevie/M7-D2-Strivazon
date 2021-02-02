@@ -20,7 +20,7 @@
 
 .border-thick {
   border-width: 3px !important;
-  margin: -3px;
+  margin: -3px; /*to off set the div from jumping around*/
 }
 
 .cart {
